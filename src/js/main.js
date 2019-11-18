@@ -2,18 +2,12 @@ import getRSS from './rss';
 
 const root = document.getElementById('root');
 
-const handleClickItem = (e) => {
-    const link = e.target.closest('div').dataset.source;
-    console.log(link);
-    return link;
-};
-
-root.addEventListener('click', handleClickItem);
 
 const newLayout = (article) => (
     `<div data-source="${article.link}" class="article">
         <h3>${article.title}</h3>
         <a href="${article.link}" target="_blank">open</a>
+        <span>show qr</span>
     </div>`
 );
 
