@@ -1,6 +1,2 @@
-import RSS from './js/rss';
-
-(() => {
-    RSS();
-    console.log('test2');
-})();
+import './js/main';
+import './sass/main.scss'

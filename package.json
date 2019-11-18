@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open  --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -29,5 +29,8 @@
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2",
     "@babel/runtime": "^7.6.3"
+  },
+  "dependencies": {
+    "rss-parser": "^3.7.3"
   }
 }
