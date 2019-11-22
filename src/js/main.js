@@ -7,7 +7,7 @@ const newLayout = (article) => (
     `<div data-source="${article.link}" class="article">
         <h3>${article.title}</h3>
         <a href="${article.link}" target="_blank">open</a>
-        <span>show qr</span>
+<!--        <span><b>show qr</b></span>-->
     </div>`
 );
 

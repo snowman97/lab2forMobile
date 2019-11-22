@@ -6,6 +6,7 @@
 
 body{
   position: relative;
+  background-color: blueviolet;
 }
 
 #canvas--popup{
@@ -14,10 +15,16 @@ body{
   top: 20px;
   left: 20px;
   padding: 100px;
+  color: cyan;
 }
+#canvas{
 
+}
 #root{
   .article{
     padding: 10px;
+    border: 1px solid;
+    width: 300px;
+    margin: 0 auto;
   }
 }
